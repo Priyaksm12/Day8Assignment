@@ -2,7 +2,7 @@ package com.Bridgelabz.Day8;
 
 
 
-public class EmployeewageUc6 {
+public class Employeewage_Uc7 {
     public static int MAX_WORKING_DAYS = 20;
     public static int MAX_HOURS = 100;
     public static void main(String[] args) {
