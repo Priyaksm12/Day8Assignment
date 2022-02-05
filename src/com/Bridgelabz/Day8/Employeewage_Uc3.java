@@ -1,6 +1,6 @@
 package com.Bridgelabz.Day8;
 
-public class Employeewage_Uc2 {
+public class Employeewage_Uc3 {
 
     public static void main(String[] args) {
         EmpCalculation emp = new EmpCalculation();
