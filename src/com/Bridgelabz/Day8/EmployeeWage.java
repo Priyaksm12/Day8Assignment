@@ -12,7 +12,7 @@ public class EmployeeWage {
 }
 class EmpCalculation
 {
-    public static final int IS_FULLTEXT = 1;
+    public static final int IS_FULLTIME = 1;
     public static final int IS_PARTTIME = 2;
     public static int TOTAL_WAGE = 0;
     static String company;
@@ -30,7 +30,7 @@ class EmpCalculation
             System.out.println("For DAY"+workingDays);
             int empCheck = (int)Math.floor(Math.random() * 10) % 3;
             switch(empCheck) {
-                case IS_FULLTEXT:
+                case IS_FULLTIME:
                     System.out.println("Employee is present and worked full-time");
                     empHrs = 8;
                     break;
